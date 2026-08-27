@@ -44,13 +44,13 @@
 
     .card{
         
-        width: 200px;
-        height: 320px;
+        width: 300px;
+        height: 420px;
         align-items: center;
         text-align: center;
         background-color: black;
         border-radius: 13px;
-        padding: 10px;
+        padding: 20px;
 
     }
 
