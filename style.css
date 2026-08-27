@@ -33,11 +33,11 @@
     .fundo{
 
         display: flex;
-        gap: 20px;
-        width: 100px;
-        height: 100px;
+        gap: 30px;
+        width: 100%;
+        height:auto;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
         margin-top: 10px;
 
     }
