@@ -46,7 +46,7 @@
     .card{
         
         width: 280px;
-        height: 400px;
+        height: 450px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -61,10 +61,11 @@
 
     .card img   {
 
-        width: 120%;
-        height: 200px;
+        width: 100%;
+        height: 260px;
         object-fit: cover;
         border-radius: 15px;
+        margin-bottom: 15px;
 
 }
 
