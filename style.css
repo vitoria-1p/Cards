@@ -68,7 +68,7 @@
 
     .card:hover {
 
-        transform: translatey(10px) scale(12);
+        transform: translatey(-10px) scale(1.03);
         border-color: white;
         box-shadow: 15px;
 
