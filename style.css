@@ -79,4 +79,7 @@
     .subtitulo {
 
         text-align: center;
+        max-width: 800px;
+        margin: 30px auto;
+        color: #f0f0f0
     }
