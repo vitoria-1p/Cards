@@ -1,7 +1,9 @@
    body {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         background-color: rgb(112, 98, 98);
-        margin: 20px;
+        margin: 0;
+        padding: 0;               
+        box-sizing: border-box;
 
     }
 
@@ -11,7 +13,13 @@
         padding: 20px;
         text-align: center;
     }
-    
+
+    .linha-topo {                  
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 15px auto;
+    width: 80%;
+}
 
     nav a   {
  
@@ -29,6 +37,16 @@
             color: blue;
 
     }
+
+.painel-introducao {           
+    background-color: rgb(40, 35, 35); 
+    width: 100%;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+}
 
 .fundo-destaque {
     display: flex;
@@ -52,7 +70,7 @@
     }
 
 .card-largo {
-    width: 600px; 
+    width: 700px; 
     height: 400px;
     background-color: transparent;
     perspective: 1000px;
@@ -110,9 +128,10 @@
     display: block; 
 }
 .card-frente-larga img {
-    width: 560px;
+    width: 660px;
     height: 250px;
     object-fit: cover;
+    object-position: center 25%;
     border-radius: 15px;
     margin-bottom: 20px;
     display: block;
@@ -133,6 +152,12 @@
     border-color: white;
 
     }
+
+.subtitulo-container {        
+    text-align: center;
+    margin: 40px auto 10px auto;
+    width: 90%;
+}
 
 .card-verso p {
     font-size: 14px;
@@ -167,6 +192,16 @@
 
     .subtitulo {
 
-        text-align: center;    
+        text-align: center;
+
         }
+
+     .texto-subtitulo {             
+    font-size: 16px;
+    color: #e0e0e0;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+    
+       
 
