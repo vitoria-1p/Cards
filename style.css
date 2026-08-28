@@ -101,6 +101,14 @@
     overflow: hidden;
 }
 
+.card-frente img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    display: block; 
+}
 .card-frente-larga img {
     width: 100%;
     height: 300px;
