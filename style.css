@@ -168,5 +168,9 @@
     .subtitulo {
 
         text-align: center;    
-        
-    }
+        }
+
+.card-frente img.foto-zoom {
+    transform: scale(1.15); 
+    object-position: center top ; 
+}
