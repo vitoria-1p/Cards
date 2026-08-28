@@ -43,6 +43,8 @@
     width: 100%;
     padding: 40px 20px;
     display: flex;
+    flex-direction: row; 
+    gap: 35px; 
     justify-content: center;
     box-sizing: border-box;
     border-bottom: 3px solid rgba(0, 0, 0, 0.3);
