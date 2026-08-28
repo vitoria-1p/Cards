@@ -39,7 +39,7 @@
     }
 
 .painel-introducao {           
-    background-color: rgb(40, 35, 35); 
+    background-color: transparent; 
     width: 100%;
     padding: 40px 20px;
     display: flex;
