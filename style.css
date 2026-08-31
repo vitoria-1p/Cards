@@ -133,9 +133,6 @@
 
    
 .card-verso {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
     transform: rotateY(180deg);
     border-color: white;
