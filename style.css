@@ -50,14 +50,6 @@
     border-bottom: 3px solid rgba(0, 0, 0, 0.3);
 }
 
-.fundo-destaque {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-
     .fundo{
 
         display: flex;
